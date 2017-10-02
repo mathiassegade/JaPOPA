@@ -1,4 +1,4 @@
-# JaPOPA
+# OPA WebSite
 
-Proyecto *Jovenes a Programar* 
-        _OPA Website_
+Proyecto _Jovenes a Programar_ 
+        
