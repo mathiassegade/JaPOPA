@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{text-decoration: none;}
+
+li{
+	list-style: none;
+	display: inline;
+}
+
+body {
+	background-image: url();
+    box-shadow: 0 0 10px rgba(000,000,000,0.4);
+    background-size:cover;
+}
+
+header {
+	width:100%;
+	height:25%;
+	box-shadow: 5px 5px 20px #000;
+	position:relative;
+	background-image: url(http://www.freeliquidtemplates.com/free-headers-for-websites/header20.jpg);
+	
+	background-size:contain;
+	 
+}
+#menu {
+	width:80%;
+	padding-top:50px;
+	margin:auto;
+	text-align: center;
+	margin-bottom: 15px;
+	
+}
+#menu ul li > a {
+	color:#fff;
+	font:bold 16px verdana;
+	padding:10px 10px 10px 10px;
+	display:inline-block;
+	box-shadow: 1px 1px 5px #000;
+	
+}
+#menu ul li > a:hover {
+	color:#9DBEE3;
+	background:#333;
+
+}
+#logo-header {
+	
+	float: left;
+	padding: 15px 0 0 20px;
+	
+}
+#reloj{
+ font-family: sans-serif;
+ color: #fff;
+ display: inline-block;
+ font-weight: 100;
+ text-align: center;
+ font-size: 30px;
+ 
+
+}
+
+ 
+#reloj > div{
+    padding: 10px;
+    border-radius: 3px;
+    background:lightgrey;
+    display: inline-block;
+    float:left;
+ 
+}
+ 
+#reloj div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: rgba(57, 68, 84, 0.27);
+    display: inline-block;
+    
+}
+.texto{
+    padding-top: 5px;
+    font-size: 16px;
+}
+#img-header {
+	float: left;
+	/*height: 0;*/
+}
+		
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	/*margin: 15px 0;*/
+	text-align: center;
+	font-weight: 300;
+	color:
+}
+h2 {
+	
+}
+h3 {
+	color:#90031A;
+}
+ 
+p {
+	margin-top:25px;
+	
+}
+
+img{
+	max-width:100%;
+} 
+
+ }
+ table {
+		background:#484B52;
+		color:white;
+		font-size:23px;
+		font-style:italic;
+}
+
+ #contenido {
+ 	        width:70%;
+ 	        float:right;
+
+}
+footer {
+text-align: center;
+padding-left:5px;
+	padding-bottom:5px;
+	font-size:15px;
+	font-family:verdana;
+bottom: 0px;
+padding-top: 40px; 
+box-shadow:0 0 10px rgba(000,000,000,0.4);
+background-image: url(http://www.freeliquidtemplates.com/free-headers-for-websites/header20.jpg);
+width:100%;
+height:400px;
+ background-size:cover;
+
+}
+
+
+footer a, footer li{
+	color: black;
+	display: block;
+}
+
+footer p{
+	color: white;
+}
+
+#sobrenosotros {
+	padding-left:5px;
+	padding-bottom:5px;
+	font-size:15px;
+	color:white;
+	font-family:verdana;
+
+}
+section #sobrenosotros {
+	float:right;
+}
+
+#acercade cite {
+	font-size:20px;
+	color:#EC082D;
+}
+#acercade strong {
+	font-size:20px;
+	color:#EC082D;
+}
+#acercade p {
+	font-size:18px;
+	color:#C4C4C8;
+} 
+#contenedorbody {
+	width: 100%;
+	border-style:solid;
+	text-align:center;
+}
+
+#login {
+	background-image: url("http://www.ariva.com.ph/wp-content/uploads/2015/03/SUMMER-HEADER-2015.png");
+	width:100%;
+	/*padding-left:350px;*/
+	padding-bottom:10px;
+	padding-top:100px;
+	height:400px;
+	font-size:15px;
+	font-family:verdana;
+	color:black;
+	background-size:cover;
+	}
+
+#loginregistro {
+	background-image: url("http://www.ariva.com.ph/wp-content/uploads/2015/03/SUMMER-HEADER-2015.png");
+	width:100%;
+	/*padding-left:350px;*/
+	padding-bottom:10px;
+	padding-top:50px;
+	height:800px;
+	font-size:15px;
+	font-family:verdana;
+	color:black;
+	background-size:cover;
+	}
+	
+#buscar {
+	
+	
+	height: 70px;
+	text-align: center;
+	margin:auto;
+	font-size:20px;
+	font-family:verdana;
+	color:white;
+	
+}
+#botonentrar {
+	width:70px;
+	height:37px;
+	border-style:inset;
+	border-radius:20px;
+	background-color:lightgrey;
+	
+}
+#search {
+	width:300px;
+	height:37px;
+	border-style:inset;
+	border-radius:20px;
+	max-width: 100%;
+	text-align: center;
+}
+#botonbuscar {
+	width:70px;
+	height:37px;
+	border-style:inset;
+	border-radius:20px;
+	background-color:lightgrey;
+}
+#nombredeusuario {
+
+	border-style:inset;
+	border-radius:20px;
+}
+#contraseña {
+	border-style:inset;
+	border-radius:20px;	
+}
+#enter {
+	height:37px;
+	border-style:inset;
+	border-radius:20px;
+}
+#redes {
+	
+}
+#carrito {
+
+	
+	
+}
+#ofertasdeldia {
+	background-image: url("http://www.ariva.com.ph/wp-content/uploads/2015/03/SUMMER-HEADER-2015.png");
+	font-family:verdana;
+	font-size:12px;
+	background-size:contain;
+	
+	
+}
+
+.articulos{
+                width:30%;
+                float:left;
+                margin: 10px;
+                height: 350px;
+                
+				 background-image: url(data:image/jpeg;base64,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);
+                
+}
+
+.articulo{
+	margin: 5px;
+
+}
+#precio {
+	text-align:right;
+	font-size:30px;
+	color:red;
+
+}
+#titulos {
+	font-size:25px;
+	font-family:bold;
+}
+
+.salto{
+    clear: both;
+}
+.lateral{
+    width: 20%;
+    border: 1px solid black;
+    height: 100%;
+    float: left;
+    background-image: url(data:image/jpeg;base64,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);
+    background-size:cover;
+}
+.principal{
+    width: 80%;
+    border: 1px solid black;
+    height: 100%;
+    float: right;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/095/282/non_2x/unique-polygon-background-vector.jpg);
+    background-size:contain;
+    text-align: center;
+}
+.sobre{
+	width: 33%;
+	float:left;
+}
+.cat{
+	width: 33%;
+	float: left;
+}
+.pago{
+	width: 33%;
+	float: right;
+}
+#imglogin {
+	background-image: url();
+	width:40%;
+	height:350px;
+	float:right;
+}
+
+.form{
+
+    background:; 
+    margin:0 auto; 
+    /*padding-left:50px;*/ 
+    padding-top:20px;
+	width:100%;
+	float:left;
+}
+
+.form fieldset {border:0px; padding:0px; margin:0px;}
+
+.form p.contact { font-size: 12px; margin:0px 0px 10px 0;line-height: 14px; font-family:Arial, Helvetica;}
+
+input{
+	max-width: 100%;
+	text-align: center;
+}
+
+.form input[type="text"] { 
+	width: 400px;
+ }
+
+.form input[type="email"] { 
+	width: 400px; 
+	
+}
+
+.form input[type="password"] { 
+	width: 400px; 
+	
+}
+
+.form input.birthday{width:60px;}
+
+.form input.birthyear{width:120px;}
+
+.form label { color: #000; font-weight:bold;font-size: 12px;font-family:Arial, Helvetica; }
+
+.form label.month {width: 135px;}
+
+.form input, textarea { background-color: rgba(255, 255, 255, 0.4); border: 1px solid rgba(122, 192, 0, 0.15); padding: 7px; font-family: Keffeesatz, Arial; color: #4b4b4b; font-size: 14px; -webkit-border-radius: 5px; margin-bottom: 15px; margin-top: -10px; }
+
+.form input:focus, textarea:focus { border: 1px solid #ff5400; background-color: rgba(255, 255, 255, 1); }
+
+.form .select-style {
+max-width: 100%;
+  -webkit-appearance: button;
+
+  -webkit-border-radius: 2px;
+
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+
+  -webkit-padding-end: 20px;
+
+  -webkit-padding-start: 2px;
+
+  -webkit-user-select: none;
+
+  background-image: url(),
+
+    -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+
+  background-position: center right;
+
+  background-repeat: no-repeat;
+
+  border: 0px solid #FFF;
+
+  color: #555;
+
+  font-size: inherit;
+
+  margin: 0;
+
+  overflow: hidden;
+
+  padding-top: 5px;
+
+  padding-bottom: 5px;
+
+  text-overflow: ellipsis;
+
+  white-space: nowrap;}
+
+.form .gender {
+
+  width:400px;
+
+  }
+
+.form input.buttom{ background: #4b8df9; display: inline-block; padding: 5px 10px 6px; color: #fbf7f7; text-decoration: none; font-weight: bold; line-height: 1; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 0 1px 3px #999; -webkit-box-shadow: 0 1px 3px #999; box-shadow: 0 1px 3px #999; text-shadow: 0 -1px 1px #222; border: none; position: relative; cursor: pointer; font-size: 14px; font-family:Verdana, Geneva, sans-serif;}
+
+.form input.buttom:hover    { background-color: #2a78f6; }
+
+#formulario {
+	background-image: url("http://www.ariva.com.ph/wp-content/uploads/2015/03/SUMMER-HEADER-2015.png");
+	background-size:cover;
+	float: right;
+	width: 100%;
+}
+
+#titnac{
+	margin-bottom: 15px;
+}
+
+	/*Phones*/
+	@media only screen and (max-width: 480px){
+
+		footer{
+			padding-top:0; 
+		}
+		li{
+			display: block;
+		}
+		#menu{
+			/*width: 100%;*/
+			margin: auto;
+		}
+		#menu ul li > a {
+			width: 100%;
+		}
+		.articulos{
+			width: 100%;
+			margin: 1px;
+		}
+
+		.re{
+			clear: both;
+		}
+		.lateral{
+			display: none;
+		}
+		.principal{
+			width: 100%;
+			float: none;
+		}
+		#img-header {
+			float: none;
+			margin: auto;
+			text-align: center;
+		}
+		#buscar{
+			/*margin-bottom:6px;*/	
+		}	
+
+		#menu ul li > a{
+			margin-top: 28px;
+		}
+		.pago{
+			width: 100%;
+			float:none;
+		}
+		.sobre{
+			width: 50%;
+		}
+		.cat{
+			float: right;
+			width: 50%;
+		}
+	}
+
+	/*Tablets*/
+	@media only screen and (max-width: 768px){
+		.principal{
+			width: 100%;
+			float: none;
+		}
+		.articulos{
+			width: 100%;
+			margin: 2px;
+			float: none;
+		}
+		.lateral{
+			display: none;
+		}
+		#img-header {
+			float: none;
+			margin: auto;
+			text-align: center;
+		}	
+		#titulos{
+			font-size: 45px;
+		}
+
+	}
+
+	/*Desktops*/
+	@media only screen and (max-width: 992px){
+		*, #logo-header{
+			padding: 0;
+		}
+		.articulos{
+			width: 100%;
+			float: none;
+			margin: auto;
+		}
+		#menu{
+			width: 100%; /*???*/
+			margin: auto;
+		}
+		#menu ul li > a {
+			width: 100%;
+		}
+		#img-header {
+			float: none;
+			margin: auto;
+			text-align: center;
+		}	
+	}
+
+	@media only screen and (max-width: 1110px){
+		#titulos{
+			font-size: 22px;
+		}
+	}
+	#mensaje{
+		font-size: 18px;
+	}
+	#alerta{
+		color: red;
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	
