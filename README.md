@@ -1,4 +1,4 @@
 # JaPOPA
 
-Proyecto OPA Website de Jovenes a Programar _GitHub_
-Grupo 15
+Proyecto *Jovenes a Programar* 
+        _OPA Website_
