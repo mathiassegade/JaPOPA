@@ -1,42 +1,35 @@
 
+// Set the date we're counting down to
+var  tomorrow = new Date();
+tomorrow.setDate(tomorrow.getDate()+1);
+tomorrow.setHours(0,0,0,0);
 
-/*function getTimeRemaining(endtime) {
-  var t = Date.parse(endtime) - Date.parse(new Date());
-  var segundos = Math.floor((t / 1000) % 60);
-  var minutos = Math.floor((t / 1000 / 60) % 60);
-  var horas = Math.floor((t / (1000 * 60 * 60)) % 24);
-  
- 
-  return {
-    'total': t,
-    'horas': horas,
-    'minutos': minutos,
-    'segundos': segundos
-  };
-}
- 
-function initializeReloj(demo, endtime) {
-  var reloj = document.getElementById(demo);
-  var horaSpan = reloj.querySelector('.horas');
-  var minutoSpan = reloj.querySelector('.minutos');
-  var segundoSpan = reloj.querySelector('.segundos');
- 
-  function updateReloj() {
-    var t = getTimeRemaining(endtime);
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
     
-    horaSpan.innerHTML = ('0' + t.horas).slice(-2);
-    minutoSpan.innerHTML = ('0' + t.minutos).slice(-2);
-    segundoSpan.innerHTML = ('0' + t.segundos).slice(-2);
-    if (t.total <= 0) {
-      clearInterval(timeinterval);
+    // Find the distance between now an the count down date
+    var distance = tomorrow - now;
+    
+    // Time calculations for  hours, minutes and seconds
+  
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("horas").innerHTML = hours;
+    document.getElementById("minutos").innerHTML = minutes;
+    document.getElementById("segundos").innerHTML = seconds;
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "--EXPIRED--";
     }
-  }
-  updateReloj();
-  var timeinterval = setInterval(updateReloj, 1000);
-}
- 
-var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
-initializeReloj('reloj', deadline);*/
+}, 1000);
 
 //formulario de contacto//
 
@@ -84,7 +77,8 @@ initializeReloj('reloj', deadline);*/
     
     function siVacioV2(valor){
       return valor == "";
-    }*/
+    } */
+    
 
     function enviar() {
   //verificamos que al enviar la contraseña y su confirmacion sean iguales
@@ -96,5 +90,7 @@ initializeReloj('reloj', deadline);*/
     return false;
   }
 }
-    
+
+  
+      
  
